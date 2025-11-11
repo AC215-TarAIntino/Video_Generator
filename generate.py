@@ -8,8 +8,6 @@ OUTPUT_DIR = Path('./output')
 from google import genai
 
 
-
-
 def generate_character_references(
     image_api_key, character_designs: List[dict]
 ) -> Dict[str, str]:
@@ -220,3 +218,34 @@ def generate_video_veo(
 
     # with urllib.request.urlopen(video_url) as response:
     #     return response.read()
+    
+def stitch_videos(video_paths: List[Path]) -> Path:
+        """
+        Stitch scene videos together.
+
+        Args:
+            video_paths: List of scene video paths
+
+        Returns:
+            Path to stitched video
+        """
+        import subprocess
+
+        # Create concat file for ffmpeg
+        concat_file = OUTPUT_DIR / "concat.txt"
+        with open(concat_file, 'w') as f:
+            for video_path in video_paths:
+                f.write(f"file '{video_path.absolute()}'\n")
+
+        # Stitch with ffmpeg
+        output_path = OUTPUT_DIR / "trailer_no_audio.mp4"
+        subprocess.run([
+            'ffmpeg', '-y',
+            '-f', 'concat',
+            '-safe', '0',
+            '-i', str(concat_file),
+            '-c', 'copy',
+            str(output_path)
+        ], check=True)
+
+        return output_path

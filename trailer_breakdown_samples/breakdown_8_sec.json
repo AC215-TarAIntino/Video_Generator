@@ -1,0 +1,112 @@
+{
+  "movie_title": "Echoes of Tomorrow",
+  "total_duration": 35,
+  "character_designs": [
+    {
+      "character_name": "Dr_Elara_Vance",
+      "image_generation_prompt": "A hyper-realistic image of a woman standing on a pure white background. She is slender with an athletic build, 38 years old, and has long, wavy dark chestnut hair. Her eyes are hazel, and she has fair skin with subtle laugh lines. She wears a form-fitting black jumpsuit with silver accents and a lab coat with the Project Cacophony logo on the left breast. Her expression is neutral, and she stands with her hands at her sides.",
+      "brief_identifier": "slender woman, late 30s, dark hair",
+      "visual_style": "hyper-realistic"
+    },
+    {
+      "character_name": "General_Valerius_Kade",
+      "image_generation_prompt": "A hyper-realistic image of a man standing on a pure white background. He is imposing with a muscular build, 55 years old, and has short silver hair, cropped close to his scalp. He has a strong jawline, steely blue eyes, and a stern expression. He wears a crisp military uniform with gold insignia and medals, standing with his hands clasped behind his back.",
+      "brief_identifier": "imposing man, silver hair, military bearing",
+      "visual_style": "hyper-realistic"
+    }
+  ],
+  "scenes": [
+    {
+      "scene_number": 1,
+      "duration_seconds": 8,
+      "scene_type": "establishing",
+      "start_frame_prompt": "Aerial view from 150 meters altitude of a brutalist research facility, Project Cacophony, at dawn. The facility is a 300-meter tall grey structure with a large courtyard in the center. Harsh orange and red hues from the rising sun cast long shadows across the facility.",
+      "end_frame_prompt": "The same view of the facility, now with the sun fully risen, casting a soft yellow light across the courtyard.",
+      "video_prompt": "The camera dollies down from 150 meters to 50 meters altitude over 8 seconds, revealing more of the facility's scope. The lighting shifts from harsh orange and red hues to a soft yellow light as the sun rises.",
+      "reference_images": [],
+      "characters_present": [],
+      "continuity_note": "Establishing shot of the facility"
+    },
+    {
+      "scene_number": 2,
+      "duration_seconds": 8,
+      "scene_type": "character_introduction",
+      "start_frame_prompt": "Dr. Vance (slender woman, late 30s, dark hair) is seen from behind, standing at a holographic interface in a sterile laboratory. She is surrounded by humming lab equipment, and harsh blue-white fluorescent lights at 6500K illuminate the space from above.",
+      "end_frame_prompt": "Dr. Vance (slender woman, late 30s, dark hair) turns to face the camera, her expression determined.",
+      "video_prompt": "The camera executes a slow 6-second dolly forward toward Dr. Vance, as she stands 3 meters away at the holographic interface. Halfway through the dolly movement, Dr. Vance turns to face the camera, her expression shifting from concentration to determination. A low-frequency electronic hum at approximately 60Hz fills the lab, punctuated by occasional beeps from the lab equipment.",
+      "reference_images": [
+        "Dr_Elara_Vance"
+      ],
+      "characters_present": [
+        "Dr. Elara Vance"
+      ],
+      "continuity_note": "First appearance of Dr. Vance"
+    },
+    {
+      "scene_number": 3,
+      "duration_seconds": 8,
+      "scene_type": "conflict",
+      "start_frame_prompt": "General Kade (imposing man, silver hair, military bearing) is seen in his office, a large room filled with maps and strategic displays. He is seated at a desk, leaning forward with his hands clasped, listening intently to a subordinates' report.",
+      "end_frame_prompt": "General Kade (imposing man, silver hair, military bearing) slams his fist on the desk, his expression stern and authoritative.",
+      "video_prompt": "The camera begins at a medium shot of General Kade, then quickly cuts to a close-up as his subordinate reports. As the report ends, the camera dollies back out to a medium shot as General Kade slams his fist on the desk, his voice booming as he gives an order: 'I want a full lockdown on the facility, now!'",
+      "reference_images": [
+        "General_Valerius_Kade"
+      ],
+      "characters_present": [
+        "General Valerius Kade"
+      ],
+      "continuity_note": "Introduction of the antagonist and conflict"
+    },
+    {
+      "scene_number": 4,
+      "duration_seconds": 8,
+      "scene_type": "action_tension",
+      "start_frame_prompt": "Dr. Vance (slender woman, late 30s, dark hair) is seen running through the facility's corridors, pursued by armed guards. She is holding a data chip in her hand, her expression determined and desperate.",
+      "end_frame_prompt": "Dr. Vance (slender woman, late 30s, dark hair) slides to a halt at a secure door, swiping the data chip and activating a holographic interface. She quickly enters a series of codes, her fingers flying over the interface.",
+      "video_prompt": "The camera begins with a tracking shot behind Dr. Vance as she runs, then cuts to a series of quick cuts as she is pursued by guards. She dodges and weaves through the corridors, the sound of her heels clicking on the hard floor and her breath coming in rapid gasps. As she reaches the secure door, the camera slows down, showing her determined expression as she enters the codes.",
+      "reference_images": [
+        "Dr_Elara_Vance"
+      ],
+      "characters_present": [
+        "Dr. Elara Vance"
+      ],
+      "continuity_note": "Dr. Vance's desperate attempt to uncover the truth"
+    },
+    {
+      "scene_number": 5,
+      "duration_seconds": 8,
+      "scene_type": "climax_tease",
+      "start_frame_prompt": "General Kade (imposing man, silver hair, military bearing) confronts Dr. Vance (slender woman, late 30s, dark hair) in a dimly lit chamber filled with strange, pulsating organisms in containment chambers. The atmosphere is tense and foreboding.",
+      "end_frame_prompt": "Dr. Vance (slender woman, late 30s, dark hair) reveals the data chip, her voice shaking with emotion as she says, 'They're not weapons, General. They're a form of life.'",
+      "video_prompt": "The camera begins with a close-up of Dr. Vance's face, her expression a mix of fear and determination. It then cuts to a close-up of General Kade, his expression stern and unyielding. The camera pans out to reveal the chamber, the pulsating organisms casting eerie, colorful shadows on the walls. As Dr. Vance reveals the data chip, the camera zooms in on her face, her voice echoing in the chamber.",
+      "reference_images": [
+        "Dr_Elara_Vance",
+        "General_Valerius_Kade"
+      ],
+      "characters_present": [
+        "Dr. Elara Vance",
+        "General Valerius Kade"
+      ],
+      "continuity_note": "Climactic moment between the protagonist and antagonist"
+    }
+  ],
+  "narration_script": "In a future where memories are traded like currency, one woman holds the key to unlocking the truth behind a sinister conspiracy. But with powerful forces determined to silence her, time is running out. This is 'Echoes of Tomorrow' - where memories never die.",
+  "continuity_guide": "Maintain consistent color grading throughout the trailer, using desaturated tones to emphasize the film's dystopian setting. Ensure that Dr. Vance's expression remains determined and resourceful, while General Kade maintains his stern, authoritative demeanor.",
+  "technical_specs": {
+    "color_grading": "Desaturated, dystopian color palette with cool blues and greys, punctuated by warm oranges and reds in exterior shots.",
+    "aspect_ratio": "16:9",
+    "visual_style": "Hyper-realistic with desaturated tones and stark contrasts.",
+    "sound_design_notes": "Heavy use of electronic hums, beeps, and pulsating tones to emphasize the sci-fi setting, with sudden cuts to emphasize tension and action."
+  },
+  "character_appearance_map": {
+    "Dr. Elara Vance": [
+      2,
+      4,
+      5
+    ],
+    "General Valerius Kade": [
+      3,
+      5
+    ]
+  }
+}
