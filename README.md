@@ -98,9 +98,21 @@ ffmpeg -y -f concat -safe 0 -i output/concat.txt \
   - Ensure your key has access to both Gemini image and VEO video models.
 
 ## Project Structure
-- `generate.py` — core generation and stitching functions
-- `test.py` — example driver script for generation and stitching
-- `trailer_breakdown_samples/` — example JSON inputs(in the test we run the 8-sec version)
-- `output/` — generated files (created on first run)
-- `requirements.txt` — Python dependencies
-
+```
+.
+├── generate.py
+├── test.py
+├── trailer_breakdown_samples/
+│   └── breakdown_8_sec.json
+├── output/
+│   ├── refs/
+│   │   └── <character>.png
+│   ├── scenes/
+│   │   └── scene_XX.mp4
+│   └── trailer_no_audio.mp4
+├── requirements.txt
+├── secret.json
+├── README.md
+├── LICENSE
+└── .gitignore
+```
