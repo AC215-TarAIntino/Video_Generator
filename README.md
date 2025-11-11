@@ -16,6 +16,7 @@ Generate short video scenes from text prompts using Google GenAI (images) and VE
 ## Requirements
 - Python 3.10+ (tested on 3.13)
 - A Google API key with access to Gemini image and VEO video generation
+  You can get one from here: https://console.cloud.google.com/apis/credentials
 - `ffmpeg` available on your system PATH (used for stitching)
   - macOS (Homebrew): `brew install ffmpeg`
   - Conda: `conda install -c conda-forge ffmpeg`
