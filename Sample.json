@@ -1,0 +1,49 @@
+{
+  "image_api_key":"your_api_key",
+  "veo_api_key": "your_api_key",
+  "character_designs": [
+    {
+      "character_name": "Dr_Elara_Vance",
+      "image_generation_prompt": "A hyper-realistic image of a woman standing on a pure white background. She is slender with an athletic build, 38 years old, and has long, wavy dark chestnut hair. Her eyes are hazel, and she has fair skin with subtle laugh lines. She wears a form-fitting black jumpsuit with silver accents and a lab coat with the Project Cacophony logo on the left breast. Her expression is neutral, and she stands with her hands at her sides.",
+      "brief_identifier": "slender woman, late 30s, dark hair",
+      "visual_style": "hyper-realistic"
+    },
+    {
+      "character_name": "General_Valerius_Kade",
+      "image_generation_prompt": "A hyper-realistic image of a man standing on a pure white background. He is imposing with a muscular build, 55 years old, and has short silver hair, cropped close to his scalp. He has a strong jawline, steely blue eyes, and a stern expression. He wears a crisp military uniform with gold insignia and medals, standing with his hands clasped behind his back.",
+      "brief_identifier": "imposing man, silver hair, military bearing",
+      "visual_style": "hyper-realistic"
+    }
+  ],
+  "scenes": 
+    [
+    {
+      "scene_number": 1,
+      "duration_seconds": 8,
+      "scene_type": "establishing",
+      "start_frame_prompt": "Aerial view from 150 meters altitude of a brutalist research facility, Project Cacophony, at dawn. The facility is a 300-meter tall grey structure with a large courtyard in the center. Harsh orange and red hues from the rising sun cast long shadows across the facility.",
+      "end_frame_prompt": "The same view of the facility, now with the sun fully risen, casting a soft yellow light across the courtyard.",
+      "video_prompt": "The camera dollies down from 150 meters to 50 meters altitude over 8 seconds, revealing more of the facility's scope. The lighting shifts from harsh orange and red hues to a soft yellow light as the sun rises.",
+      "reference_images": [],
+      "characters_present": [],
+      "continuity_note": "Establishing shot of the facility"
+    }
+    ,
+    {
+      "scene_number": 2,
+      "duration_seconds": 8,
+      "scene_type": "character_introduction",
+      "start_frame_prompt": "Dr. Vance (slender woman, late 30s, dark hair) is seen from behind, standing at a holographic interface in a sterile laboratory. She is surrounded by humming lab equipment, and harsh blue-white fluorescent lights at 6500K illuminate the space from above.",
+      "end_frame_prompt": "Dr. Vance (slender woman, late 30s, dark hair) turns to face the camera, her expression determined.",
+      "video_prompt": "The camera executes a slow 6-second dolly forward toward Dr. Vance, as she stands 3 meters away at the holographic interface. Halfway through the dolly movement, Dr. Vance turns to face the camera, her expression shifting from concentration to determination. A low-frequency electronic hum at approximately 60Hz fills the lab, punctuated by occasional beeps from the lab equipment.",
+      "reference_images": [
+        "Dr_Elara_Vance"
+      ],
+      "characters_present": [
+        "Dr. Elara Vance"
+      ],
+      "continuity_note": "First appearance of Dr. Vance"
+    }
+  ],
+  "stitch_trailer": true
+}

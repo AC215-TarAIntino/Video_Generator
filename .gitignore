@@ -208,3 +208,4 @@ __marimo__/
 sample_videos/
 /secret.json
 **/.DS_Store
+/API_call_test.json
